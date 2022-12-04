@@ -43,8 +43,7 @@ if ($id === null || $id === false) {
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <title><?php echo $title;?></title>
@@ -106,7 +105,6 @@ switch ($status) {
             echo "</dl>";
             echo "<a href='mistnosti.php'><span class='glyphicon glyphicon-arrow-left' aria-hidden='true'></span>Zpět na seznam místností</a>";
         }
-        echo "</table>";
     }
     unset($stmt);
     ?>

@@ -74,9 +74,9 @@ switch ($status) {
             echo "<h1>Karta osoby: <em>{$row->surname} {$jmenoKratsi}.</em></h1>";
             echo "<dl class='dl-horizontal'>";
             echo "<dt>Jméno</dt> <dd>{$row->jmeno}</dd>";
-            echo "<dt><td>Příjmení</dt> <dd>{$row->surname}</dd>";
+            echo "<dt>Příjmení</dt> <dd>{$row->surname}</dd>";
             echo "<dt>Pozice</dt> <dd>{$row->job}</dd>";
-            echo "<dt><td>Mzda</dt> <dd>{$row->wage}</dd>";
+            echo "<dt>Mzda</dt> <dd>{$row->wage}</dd>";
             echo "<dt>Místnost</dt>";
             $odkazNaMistnost = "room.php?roomId=$row->room_id";
             echo "<dd><a href='".$odkazNaMistnost."'>{$row->rname}</a><br></dd>";

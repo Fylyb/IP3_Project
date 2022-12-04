@@ -25,14 +25,14 @@ function Order($poradi)
     return $order;
 }
 if (!isset($_GET['poradi'])) {
-    $order = "room.name ASC";
+    $order = "employee.surname ASC";
 } else {
     $order = Order($_GET['poradi']);
 }
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <!-- Bootstrap-->
@@ -77,7 +77,6 @@ if (!isset($_GET['poradi'])) {
     }
     unset($stmt);
     ?>
-    </form>
 </body>
 
 </html>

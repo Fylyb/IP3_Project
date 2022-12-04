@@ -30,9 +30,7 @@ else
 }
 ?>
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <!-- Bootstrap-->
